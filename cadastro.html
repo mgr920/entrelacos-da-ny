@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Faça seu cadastro - EntreLaços da Ny</title>
+    <link rel="stylesheet" href="mapas.css">
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="cadastro.css">
+    <style type="text/css"></style>
+</head>
+<body>
+  <div class="entrelacos-headerbar">
+    <ul>
+    <a href="index.html">
+      <li align="left">Pagina Inicial
+    </a>                                                                                  
+      <a href="lacos.html"align="left">• Laços</a>
+      <a href="Tiaras.html" align="left">• Tiaras</a></li>
+      <a href="Acessorios">
+      <li align="left">• Acessorios</a>
+      <a href="linhapet.html" align="left">• Linha Pet </li></a>
+      <a href="sejarevendedora.html">
+        <li align="left">•Seja uma Revendedora(o)</a>
+      <a href="meucadastro.html" align="left">• Minha Area</a>    
+                    <div class="compras">
+                          <a href="carrinho.html">
+                                <ol> <!--sub lista da primeira lista-->
+                                <li align="right">Meu Carrinho</li>
+                                      <img class="carrinho" src="imagens/logos/pink.png" align="right"></li>
+                                        <a href='https://pt.pngtree.com/so/rosa'>
+                                </ol>
+                          </a>
+                    </div>
+    </div>
+  </ul>
+<div class="container" id="container">
+	<div class="form-container sign-up-container" align="=center">
+		<form action="#">
+			<h1>Crie sua conta</h1>
+			<div class="social-container">
+				<a href="https://www.facebook.com/{{ settings.facebook }}" class="social" style="background-color:#43609C; color: #FFF;"><i class="fa fa-facebook"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>Use seu e-mail para registrar!</span>
+			<input type="text" placeholder="Name" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container" align="center">
+		<form action="#">
+			<h1>Faça seu Login</h1>
+			<div class="social-container">
+				<a href="https://www.facebook.com/{{ settings.facebook }}" class="social" style="background-color:#43609C; color: #FFF;"><i class="fa fa-facebook"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>Use a sua conta</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="recuperarsenha.html">Esqueceu sua senha?</a>
+			<button>Entrar</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1 style="color: #3c97bf">Bem Vinda(o)!</h1>
+				<p>
+					Para continuar conectado,faça seu login no campo de acesso!
+				</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1 style="color:#3c97bf; ">Olá!</h1>
+				<p>Faça seu cadastro e efetue suas compras hoje mesmo no conforto da sua casa!</p>
+				<button class="ghost" id="signUp">Cadastr-se</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+     <footer class="page-footer">
+        
+
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://wa.me/5524998530240?text=Tire%20sua%20%20duvida" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+<i style="margin-top:16px" class="fa fa-whatsapp"></i></a>
+
+               <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+                <a href="https://www.facebook.com/{{ settings.facebook }}" style=" position: fixed; width:60px; height: 60px; bottom: 40px; right: 110px;background-color: #43609C; color: #FFF; border-radius: 50px; text-align:center; font-size: 30px; box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank"> 
+<i style="margin-top:16px" class="fa fa-facebook"></i></a>
+
+               <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+                <a href="https://www.instagram.com/entrelacosdany/" style=" position: fixed; width:60px; height: 60px; bottom: 40px; right: 180px;background-color: #517fa4; color:#fff; border-radius: 50px; text-align:center; font-size: 30px; box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank"> 
+<i style="margin-top:16px" class="fa fa-instagram"></i></a>
+
+        </footer>
+    </div>
+    <script src="cadastro.js"></script>
+
+</body>
+</html>
